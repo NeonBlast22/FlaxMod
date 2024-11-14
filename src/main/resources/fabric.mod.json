@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flaxmod",
+	"version": "${version}",
+	"name": "Flax Mod",
+	"description": "It adds flax and uhhh, flax",
+	"authors": [
+		"NeonBlast22"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/flaxmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.neonblast22.flaxmod.FlaxMod"
+		],
+		"client": [
+			"net.neonblast22.flaxmod.FlaxModClient"
+		],
+		"fabric-datagen": [
+			"net.neonblast22.flaxmod.FlaxModDataGenerator"
+		]
+	},
+	"mixins": [
+		"flaxmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
