@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients": [
+    {
+      "item": "flaxmod:dried_flax_block"
+    }
+  ],
+  "result": {
+    "item": "flaxmod:dried_flax_bundle",
+    "count": 9
+  }
+}

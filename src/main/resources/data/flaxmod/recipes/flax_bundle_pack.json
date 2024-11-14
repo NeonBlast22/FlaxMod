@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "flaxmod:flax_bundle"
+    }
+  },
+  "result": {
+    "item": "flaxmod:flax_block",
+    "count": 1
+  }
+}

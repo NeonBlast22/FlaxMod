@@ -10,7 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.neonblast22.flaxmod.FlaxMod;
 
-public class ModItems {
+public class ModItems
+{
     public static final Item FLAX_BUNDLE = registerItem("flax_bundle", new Item(new FabricItemSettings()));
     public static final Item DRIED_FLAX_BUNDLE = registerItem("dried_flax_bundle", new Item(new FabricItemSettings()));
 

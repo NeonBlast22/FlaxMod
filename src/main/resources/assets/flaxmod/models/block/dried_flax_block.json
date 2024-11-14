@@ -1,0 +1,7 @@
+{
+  "parent" : "block/cube_all",
+  "textures":
+  {
+    "all": "flaxmod:block/dried_flax_block"
+  }
+}

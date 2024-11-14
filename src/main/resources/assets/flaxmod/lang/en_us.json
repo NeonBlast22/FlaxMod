@@ -1,5 +1,9 @@
 {
   "itemgroup.flax" : "The Flax Mod",
+
   "item.flaxmod.flax_bundle" : "Flax Bundle",
-  "item.flaxmod.dried_flax_bundle" : "Dried Flax Bundle"
+  "item.flaxmod.dried_flax_bundle" : "Dried Flax Bundle",
+
+  "block.flaxmod.flax_block" : "Flax Block",
+  "block.flaxmod.dried_flax_block" : "Dried Flax Block"
 }

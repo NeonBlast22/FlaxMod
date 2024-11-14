@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model" : "flaxmod:block/flax_block"
+    }
+  }
+}
